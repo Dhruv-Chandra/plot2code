@@ -203,7 +203,7 @@ The evaluation pipeline uses a comprehensive suite of metrics comparing the gene
 
 The model was trained for **900 steps** (6 epochs). The training loss shows strong convergence:
 
-![Training Loss Curve](25_05/training_loss_curve.png)
+![Training Loss Curve](Results/training_loss_curve.png)
 
 | Metric             | Value                 |
 |--------------------|-----------------------|
@@ -221,7 +221,7 @@ The loss drops sharply in the first 200 steps (from ~2.05 to ~0.60), then gradua
 
 The fine-tuned model was compared against the same base model in zero-shot mode on an 82-example test set:
 
-![Comparison Chart](25_05/comparison_zeroshot_vs_finetuned.png)
+![Comparison Chart](Results/comparison_zeroshot_vs_finetuned.png)
 
 | Metric                     | Zero-Shot        | Fine-Tuned       | Absolute Δ | Relative Δ |
 |----------------------------|------------------|------------------|------------|------------|
